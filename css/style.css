@@ -26,6 +26,9 @@
     margin-top: -150px;
     position: relative;
 }
+.hero{
+    margin: 5em auto;
+}
 .col{
     font-family: 'Merriweather', serif;;
 }
