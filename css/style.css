@@ -22,7 +22,7 @@
 .jumbotron{
     background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0)), url(img/BG1.jpg);
     background-size: cover;
-    height: 768px;;
+    height: 768px;
     margin-top: -150px;
     position: relative;
 }
