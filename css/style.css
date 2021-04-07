@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+}
+.navbar{
+    position: relative;
+    z-index: 1;
+}
+.navbar-brand{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;;
+}
+.nav-link{
+    font-family: 'Fira Sans', sans-serif;
+}
+.nav-link:hover::after{
+    content: '';
+    display: block;
+    border-bottom: 3px solid yellow;
+    width: 70%;
+    margin: auto;
+}
+.jumbotron{
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0)), url(/img/BG1.jpg);
+    background-size: cover;
+    height: 768px;;
+    margin-top: -150px;
+    position: relative;
+}
+.col{
+    font-family: 'Merriweather', serif;;
+}
+.col p{
+    font-family: 'Poppins', sans-serif;
+}
+.jumbotron .col p{
+    margin-top: 14em;
+}
+.jumbotron h1{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.5em;
+}
+
+.box{
+    width: 25%;
+    height: 200px;
+    position: relative;
+}
+.slogan {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+section h1{
+    font-family: 'Poppins', sans-serif;
+}    
+
+.nametag{
+    font-family: 'Fira Sans', sans-serif;
+}
+section{
+    font-family: 'Poppins', sans-serif;
+}
+
+.client{
+    height: 20%;
+    font-family: 'Poppins', sans-serif;
+}
+.client img{
+    margin: 1.5em 0;
+}
+.moto h2{
+    font-family: 'Poppins', sans-serif;
+}
+
+.client span{
+    font-family: 'Poppins';
+}
+
+#about{
+    background-color: rgb(240,240,240);
+}
+
+.program{
+    font-family: 'Poppins', sans-serif;
+}
+
+#tim{
+    background-color: rgb(240,240,240);
+}
+.tim{
+    height: 25%;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .tim{
+        height: 25%;
+        padding-top: 50px;
+    }
+    iframe{
+        width: 700px;
+        height: 450px;
+    }
+    input{
+        size: 50px;
+    }
+    
+}
